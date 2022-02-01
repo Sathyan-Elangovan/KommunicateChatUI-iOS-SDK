@@ -16,8 +16,8 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(name: "KommunicateCore-iOS-SDK", url: "https://github.com/Kommunicate-io/KommunicateCore-iOS-SDK.git", .exact("0.0.1")),
-        .package(name: "Kingfisher", url: "https://github.com/onevcat/Kingfisher.git", .exact("7.0.0")),
+        .package(name: "KommunicateCore-iOS-SDK", url: "https://github.com/Sathyan-Elangovan/KommunicateCore-iOS-SDK.git",.branch("SPM_Issue")),
+            .package(name: "Kingfisher", url: "https://github.com/onevcat/Kingfisher.git", .exact("7.0.0")),
         .package(name: "SwipeCellKit", url: "https://github.com/SwipeCellKit/SwipeCellKit.git", from: "2.7.1"),
     ],
     targets: [
