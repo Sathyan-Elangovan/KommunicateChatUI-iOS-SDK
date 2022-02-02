@@ -14,8 +14,8 @@
         "package": "KommunicateCore-iOS-SDK",
         "repositoryURL": "https://github.com/Sathyan-Elangovan/KommunicateCore-iOS-SDK.git",
         "state": {
-          "branch": "SPM_Issue",
-          "revision": "d9ae9d3f5adc5a3e3a5f3a65be07d05ac73ace10",
+          "branch": "SPM_Master",
+          "revision": "e3bf1aacad8cff08c084ac75f4d7b8deb17ded0d",
           "version": null
         }
       },
