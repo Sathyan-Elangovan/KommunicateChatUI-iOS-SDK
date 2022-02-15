@@ -17,7 +17,7 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(name: "KommunicateCore-iOS-SDK", url: "https://github.com/Sathyan-Elangovan/KommunicateCore-iOS-SDK.git",.revision("73b8e4939fd6f3b1bcd55ebf1b6e1226df7897c3")),
+        .package(name: "KommunicateCore-iOS-SDK", url: "https://github.com/Sathyan-Elangovan/KommunicateCore-iOS-SDK.git",.revision("9b7e63ab6058f453fa6b7897dd5d6bbe6976c4b5")),
             .package(name: "Kingfisher", url: "https://github.com/onevcat/Kingfisher.git", .exact("7.0.0")),
         .package(name: "SwipeCellKit", url: "https://github.com/SwipeCellKit/SwipeCellKit.git", from: "2.7.1"),
     ],
@@ -29,6 +29,7 @@ let package = Package(
                                "SwipeCellKit"],
                 path: "Sources",
                 exclude: ["Extras"],
+                resources: [.process("Resources")],
                 linkerSettings: [
                     .linkedFramework("Foundation"),
                     .linkedFramework("SystemConfiguration"),
