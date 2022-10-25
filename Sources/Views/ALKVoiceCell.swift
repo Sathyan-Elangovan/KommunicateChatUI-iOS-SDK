@@ -166,7 +166,7 @@ class ALKVoiceCell: ALKChatBaseCell<ALKMessageViewModel>,
         voiceDelegate = delegate
     }
 
-    @objc func actionTapped() {
+    @objc public func actionTapped() {
         guard let identifier = viewModel?.identifier else { return }
         voiceDelegate?.playAudioPress(identifier: identifier)
     }
